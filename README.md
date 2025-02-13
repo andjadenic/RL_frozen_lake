@@ -28,17 +28,17 @@ The set of algorithms for numerically estimating the optimal policy is called **
 * MC method uses just the definition of the state-action value function as the expected value and the basic
 statistical method (Monte Carlo method) to estimate the state-action value function.
 * Once we have an estimation of a state-value function, we can easily estimate optimal policy.
-* Python code for Frozen Lake vith visualizations is in the file (monte_carlo_control.py)[https://github.com/andjadenic/RL_frozen_lake/blob/main/monte_carlo_control.py]
+* Python code for Frozen Lake vith visualizations is in the file [monte_carlo_control.py](https://github.com/andjadenic/RL_frozen_lake/blob/main/monte_carlo_control.py)
 
 ### Temporal Difference
 * The third set of algorithms for estimating the optimal policy that (just like MC) does not require knowledge of the dynamics of the environment are TD algorithms.
 * Methods use estimates to estimate (they bootstrap) state-action value functions. They
 combine DP and MC methods in that sense.
 * There are a few versions of the TD algorithm for estimating the optimal policy. The most popular are used in the Frozen Lake environment:
-  * **SARSA** (one-step TD)  (Python code in Frozen Lake)[https://github.com/andjadenic/RL_frozen_lake/blob/main/sarsa.py]
-  * **n step SARSA** (n-step TD) (Python code in Frozen Lake)[https://github.com/andjadenic/RL_frozen_lake/blob/main/sarsa.py]
-  * **expected SARSA** (one-step TD) (Python code in Frozen Lake)[https://github.com/andjadenic/RL_frozen_lake/blob/main/sarsa.py]
-  * **Q-learning** (one-step TD) (Python code in Frozen Lake)[https://github.com/andjadenic/RL_frozen_lake/blob/main/q_learning.py]
+  * **SARSA** (one-step TD)  [Python code in Frozen Lake](https://github.com/andjadenic/RL_frozen_lake/blob/main/sarsa.py)
+  * **n step SARSA** (n-step TD) [Python code in Frozen Lake](https://github.com/andjadenic/RL_frozen_lake/blob/main/sarsa.py)
+  * **expected SARSA** (one-step TD) [Python code in Frozen Lake](https://github.com/andjadenic/RL_frozen_lake/blob/main/sarsa.py)
+  * **Q-learning** (one-step TD) [Python code in Frozen Lake](https://github.com/andjadenic/RL_frozen_lake/blob/main/q_learning.py)
  
 ### Algorithm comparison and visualizations
 All mentioned algorithms are used in the Frozen Lake example. Results are visualized and compared in (notebook)[].
