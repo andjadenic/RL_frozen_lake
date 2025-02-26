@@ -5,7 +5,6 @@
 > Karpathy [said](https://www.youtube.com/watch?v=cdiD-9MMpb0) that learning RL agents from scratch is inefficient. It is okay to use RL if the agent has previous knowledge.
 
 To give a gentle introduction to the field of reinforcement learning I wrote [this paper](https://github.com/andjadenic/RL_frozen_lake/blob/main/A_gentle_introduction_to_Reinforcement_Learning.pdf) that explains basic methods using the popular Toy Text environment in **Gymnasium Frozen Lake**.
-
 ###  Elements of Reinforcement Learning
 Consult Chapter 1 in [paper](A gentle introduction to Reinforcement Learning.pdf) for elements of RL including state, action, reward, gain, value function, policy, and model.
 
