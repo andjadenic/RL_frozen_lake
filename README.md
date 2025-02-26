@@ -7,21 +7,21 @@
 To give a gentle introduction to the field of reinforcement learning I wrote (this paper)[] that explains basic methods using the popular Toy Text environment in **Gymnasium Frozen Lake**.
 
 ###  Elements of Reinforcement Learning
-Consult Chapter 1 in (paper)[] for elements of RL including state, action, reward, gain, value function, policy, and model.
+Consult Chapter 1 in (paper)[A gentle introduction to Reinforcement Learning.pdf] for elements of RL including state, action, reward, gain, value function, policy, and model.
 
 ### Mathematical Framework of Reinforcement Learning
-The mathematical framework of Reinforcement Learning is **finite Markov Decision Process** discussed in Chapter 1 of the (paper)[].
+The mathematical framework of Reinforcement Learning is **finite Markov Decision Process** discussed in Chapter 1 of the (paper)[A gentle introduction to Reinforcement Learning.pdf].
 
 ### Bellman equation
-* The Frozen Lake environment is used as an example to understand the Bellman equation better in (Chapter 3: Bellman Equations)[] 
+* The Frozen Lake environment is used as an example to understand the Bellman equation better in (Chapter 3: Bellman Equations)[A gentle introduction to Reinforcement Learning.pdf] 
 * RL's most famous equation (a system of n equations with n unknown variables) is **Bellman equation**.
 * ’Just’ solving that system of linear equations is computationally expensive with a time complexity of O(n
-3). Because of that we find solutions numerically in (chapter 4: Dynamic Programming)[].
+3). Because of that we find solutions numerically in (chapter 4: Dynamic Programming)[A gentle introduction to Reinforcement Learning.pdf].
 
 ### Dynamic Programming
 The set of algorithms for numerically estimating the optimal policy is called **Dynamic Programming**.
 * DP algorithms use two processes **policy evaluation** and **policy improvement**. These two processes interact by leveraging **Generalized Policy Iteration (GPI)**, explained in detail in (chapter 4: Dynamic Programming)[].
-* File (dynamic_programming.py)[] uses GPI DP for estimating optimal policy in the frozen lake environment.
+* File (dynamic_programming.py)[] uses GPI DP to estimate the optimal policy in the frozen lake environment.
 
 ### Monte Carlo Mehod
 * Monte Carlo method does not require knowledge of the dynamics of the environment (like DP).
@@ -46,4 +46,3 @@ All mentioned algorithms are used in the Frozen Lake example. Results are visual
 
 ### Used literature
 Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
->>>>>>> f7069eda8304abfc62a611cbf550760d9009a56f
