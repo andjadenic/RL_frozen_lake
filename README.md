@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-"# Frozen-Lake-Reinforcement-Learning" 
-=======
 # Introduction to Reinforcement Learning using Gymnasium Frozen Lake
 
 ![Frozen Lake](https://gymnasium.farama.org/_images/frozen_lake.gif)
